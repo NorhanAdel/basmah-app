@@ -1,0 +1,93 @@
+.aboutService {
+  padding: 5%;
+  background-color: #eee;
+
+  h1 {
+    text-align: center;
+    color: orangered;
+  }
+
+  .service_goal {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    .left_goal {
+      flex: 3;
+      padding-left: 15px;
+
+      p {
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+      }
+
+      ul {
+        li {
+          list-style: circle;
+          margin-bottom: 15px;
+          color: orangered;
+          font-weight: 700;
+        }
+      }
+    }
+
+    .right_goal {
+      flex: 1;
+
+      img {
+        width: 300px;
+        height: 300px;
+      }
+    }
+  }
+
+  // Responsive styles for tablets and mobile screens
+  @media (max-width: 768px) {
+    padding: 20px;
+
+    .service_goal {
+      flex-direction: column;
+      gap: 1rem;
+
+      .left_goal {
+        flex: none;
+        padding-left: 0;
+      }
+
+      .right_goal {
+        flex: none;
+        img {
+          width: 80%;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    padding: 15px;
+
+    .service_goal {
+      gap: 1rem;
+
+      .left_goal {
+        p {
+          font-size: 18px;
+        }
+
+        ul {
+          li {
+            font-size: 16px;
+          }
+        }
+      }
+
+      .right_goal {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
