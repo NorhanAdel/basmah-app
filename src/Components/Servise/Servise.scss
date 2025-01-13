@@ -1,0 +1,102 @@
+.servise_page {
+  .servise_container {
+    display: flex;
+    flex-wrap: wrap; // Allow wrapping for smaller screens
+    justify-content: space-between;
+
+    .right {
+      flex: 3;
+      margin-left: 20px;
+      display: flex;
+      flex-wrap: wrap; // Allow items to wrap in smaller screens
+      justify-content: space-between;
+
+      .servise_item1 {
+        width: 48%;
+        margin-bottom: 20px;
+
+        .service_item {
+          margin-bottom: 15px;
+          padding: 20px;
+          border-radius: 20px;
+          p {
+            font-size: 18px;
+          }
+          img {
+            width: 200px;
+            height: 180px;
+            display: flex;
+            justify-content: flex-end;
+          }
+          &.grey {
+            background: #f4f4f4;
+          }
+          &.orange {
+            background-color: orangered;
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    .left {
+      border-radius: 20px;
+      flex: 1;
+      background: #f4f4f4;
+      padding: 20px;
+      height: 700px;
+
+      .left_service_sub {
+        margin-top: 20px;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+/* Media Queries for Tablets and Medium Screens */
+@media (max-width: 1024px) {
+  .servise_page {
+    .servise_container {
+      .right {
+        flex: 100%;
+        margin-left: 0;
+        .servise_item1 {
+          width: 100%;
+        }
+      }
+      .left {
+        margin-top: 20px;
+        height: auto; // Remove fixed height for mobile screens
+      }
+    }
+  }
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+  .servise_page {
+    .servise_container {
+      flex-direction: column; // Stack right and left sections on mobile
+      align-items: center;
+     
+      .right {
+        flex: 100%;
+        margin-left: 0;
+
+        .servise_item1 {
+          width: 100%;
+        }
+      }
+
+      .left {
+        margin-top: 20px;
+        width: 100%; // Make the left section full width on mobile
+        height: auto;
+        img {
+          width: 190px;
+        }
+      }
+    }
+  }
+}

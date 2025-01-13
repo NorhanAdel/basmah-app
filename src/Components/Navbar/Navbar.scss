@@ -1,0 +1,121 @@
+.navbar {
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  color: #fff;
+  margin: 15px 20px;
+  .contact_whats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background:  #fff;
+    border-radius: 50%;
+    color: orangered;
+    font-size: 1.2rem;
+    transition: background 0.3s;
+  }
+  .nav-btn {
+    visibility: hidden;
+    opacity: 0;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  .logo {
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+      color: orangered;
+      font-size: 30px;
+
+      font-weight: 900;
+    }
+    span {
+      font-size: 20px;
+    }
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    li {
+      a {
+        margin-left: 2rem;
+        color: #fff;
+        cursor: pointer;
+        transition: 0.3s;
+        &.active {
+          color: orangered;
+        }
+        &:hover {
+          color: orangered;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem;
+    z-index: 1000;
+
+    .nav-links {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+      background-color: orangered;
+      transition: 0.4s;
+      transform: translate(-90vh);
+      li {
+        width: 100%;
+        text-align: center;
+
+        a {
+          width: 100%;
+          padding: 1rem 0;
+          font-size: 18px;
+          color: #fff;
+          &.active {
+            color: #000;
+          }
+          &:hover {
+            color: #000;
+          }
+        }
+      }
+      &.responsive_nav {
+        transform: none;
+      }
+
+      .nav-close-btn {
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+      }
+    }
+
+    .nav-btn {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}
