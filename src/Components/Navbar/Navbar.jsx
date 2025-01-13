@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <h1> بصمه</h1>
+        <h1> بصمة</h1>
         <span>للدعايه والاعلان</span>
       </div>
 
