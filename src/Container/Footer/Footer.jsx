@@ -9,9 +9,9 @@ const Footer = () => {
       <div className="footer-container">
         <div className="contact-info">
           <h3>تواصل معنا</h3>
-          <p>البريد الإلكتروني: mdyanw.marketing@gmail.com</p>
-          <p>الهاتف: +20 10 61258923</p>
-          <p>العنوان: القاهرة، مصر</p>
+          <p>البريد الإلكتروني: basmah.website7@gmail.com</p>
+          <p>الهاتف:  0549447953  </p>
+          <p>العنوان:   المدينة المنورة</p>
         </div>
 
         <div className="social-links">
