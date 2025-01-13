@@ -16,7 +16,7 @@ export const priceLogo = [
     icons: BiAnalyse,
   },
   {
-    title: "اداره حسابات السوشيال مديا",
+    title: "اداره حسابات السوشيال ميديا",
     icons: BiLogoFacebook,
   },
   {
@@ -52,7 +52,7 @@ export const pricemididle = [
     icons: BiAnalyse,
   },
   {
-    title: "اداره حسابات السوشيال مديا",
+    title: "اداره حسابات السوشيال ميديا",
     icons: BiLogoFacebook,
   },
   {
@@ -83,7 +83,7 @@ export const priceend = [
     icons: BiAnalyse,
   },
   {
-    title: "اداره حسابات السوشيال مديا",
+    title: "اداره حسابات السوشيال ميديا",
     icons: BiLogoFacebook,
   },
   {
