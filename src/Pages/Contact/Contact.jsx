@@ -57,7 +57,7 @@ const ContactPage = () => {
         <div className="contact-info">
           <div className="info-item">
             <FaPhoneAlt />
-            <span>01061258923</span>
+            <span>+966549447953</span>
           </div>
           <div className="info-item">
             <IoLogoWhatsapp />
