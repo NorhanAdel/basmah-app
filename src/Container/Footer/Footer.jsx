@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© 2024  .مديانو جميع الحقوق محفوظة </p>
+        <p>© 2024  . بصمة جميع الحقوق محفوظة </p>
       </div>
     </footer>
   );
