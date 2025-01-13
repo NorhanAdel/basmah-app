@@ -57,15 +57,15 @@ const ContactPage = () => {
         <div className="contact-info">
           <div className="info-item">
             <FaPhoneAlt />
-            <span>+966549447953</span>
+            <span>0549447953</span>
           </div>
           <div className="info-item">
             <IoLogoWhatsapp />
-            <span>01061258923</span>
+            <span>+966549447953</span>
           </div>
           <div className="info-item">
             <MdOutlineMailOutline />
-            <span>mdyanw.marketing@gmail.com</span>
+            <span>basmah.website7@gmail.com</span>
           </div>
         </div>
         <div className="contact-body">
