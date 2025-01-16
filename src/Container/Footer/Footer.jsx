@@ -25,14 +25,14 @@ const Footer = () => {
               <FaFacebook />
             </a>
             <a
-              href="https://www.instagram.com/mdya_nw?fbclid=IwY2xjawHFhZhleHRuA2FlbQIxMAABHfL-H6XrnGY5OFcGKMKxKtdwHVzr9jzrlD4tQ4xUyLqaRaOA3HFGo_5Gkw_aem_Czhx27l5sj3_akr3brCanQ"
+              href="https://www.instagram.com/basma_socail_media?igsh=OWdqbGhvaTF3OTI2"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaInstagram />
             </a>
             <a
-              href="https://www.tiktok.com/@mediano55?_t=8s6q3jCtuGg&_r=1"
+              href="https://www.tiktok.com/@basma2464?_t=ZS-8t6l8jnXQmY&_r=1"
               target="_blank"
               rel="noopener noreferrer"
             >
