@@ -18,7 +18,7 @@ const Footer = () => {
           <h3>تابعنا على</h3>
           <div className="icons">
             <a
-              href="https://www.facebook.com/profile.php?id=61569961888958"
+              href="https://www.facebook.com/profile.php?id=61572193564480"
               target="_blank"
               rel="noopener noreferrer"
             >
