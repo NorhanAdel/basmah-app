@@ -25,7 +25,7 @@ const Footer = () => {
               <FaFacebook />
             </a>
             <a
-              href="https://www.instagram.com/basma_socail_media?igsh=OWdqbGhvaTF3OTI2"
+              href="https://www.instagram.com/bassm_a_social_media/"
               target="_blank"
               rel="noopener noreferrer"
             >
