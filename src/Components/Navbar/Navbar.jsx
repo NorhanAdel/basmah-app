@@ -28,7 +28,7 @@ const Navbar = () => {
           })}
 
           <a
-            href="https://api.whatsapp.com/send/?phone=966549447953&text&type=phone_number&app_absent=0"
+            href="https://api.whatsapp.com/send/?phone=01029843501&text&type=phone_number&app_absent=0"
             target="_blank"
             rel="noopener noreferrer"
             className="contact_whats"
