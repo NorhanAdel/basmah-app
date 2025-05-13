@@ -9,9 +9,9 @@ const Footer = () => {
       <div className="footer-container">
         <div className="contact-info">
           <h3>تواصل معنا</h3>
-          <p>البريد الإلكتروني: basmah.website7@gmail.com</p>
-          <p>الهاتف:  0549447953  </p>
-          <p>العنوان:   المدينة المنورة</p>
+          <p>البريد الإلكتروني:mdyanw.marketing@gmail.com</p>
+          <p>الهاتف:  01029843501  </p>
+       
         </div>
 
         <div className="social-links">
@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© 2024  . بصمة جميع الحقوق محفوظة </p>
+        <p>© 2024  . مديانو جميع الحقوق محفوظة </p>
       </div>
     </footer>
   );
