@@ -22,7 +22,7 @@ function Price() {
               <div className="ad_price">
                 <h2>
                   {" "}
-                  1.500<sup> ريال</sup>
+                  1.500<sup> جنيها</sup>
                 </h2>
                 <span>شهريا</span>
               </div>
@@ -54,7 +54,7 @@ function Price() {
               <div className="ad_price">
                 <h2>
                   {" "}
-                  4000<sup>ريال</sup>
+                  4000<sup>جنيها</sup>
                 </h2>
                 <span>  اشهر 6</span>
               </div>
@@ -86,7 +86,7 @@ function Price() {
               <div className="ad_price">
                 <h2>
                   {" "}
-                  10000<sup>ريال</sup>
+                  10000<sup>جنيها</sup>
                 </h2>
                 <span>سنويه</span>
               </div>
