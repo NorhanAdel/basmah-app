@@ -47,7 +47,7 @@ function Price() {
 
           <div className="pricenum1">
             <div className="price_advertise_title">
-              <h1> باقه 6 شهور</h1>
+              <h1>باقه شهريه</h1>
               <span>باقه التسويق الاكثر مبيعا</span>
             </div>
             <div className="ad_content">
@@ -56,7 +56,7 @@ function Price() {
                   {" "}
                   4000<sup>جنيها</sup>
                 </h2>
-                <span>  اشهر 6</span>
+                <span>  شهريا</span>
               </div>
               <div className="price_logo">
                 <ul className="price_logos">
@@ -79,7 +79,7 @@ function Price() {
 
           <div className="pricenum1">
             <div className="price_advertise_title">
-              <h1>   باقه سنويه</h1>
+              <h1> باقه شهريه</h1>
               <span>باقه التسويق المميزه</span>
             </div>
             <div className="ad_content">
@@ -88,7 +88,7 @@ function Price() {
                   {" "}
                   10000<sup>جنيها</sup>
                 </h2>
-                <span>سنويه</span>
+                <span>شهريا</span>
               </div>
               <div className="price_logo">
                 <ul className="price_logos">
